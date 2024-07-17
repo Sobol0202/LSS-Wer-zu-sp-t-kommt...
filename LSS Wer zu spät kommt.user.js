@@ -63,8 +63,8 @@
                         //console.log(`Fahrzeug Anfahrtzeit: ${travelTimeText} (${travelTimeSeconds} Sekunden)`);
 
                         if (travelTimeSeconds > finalCountdownSeconds) {
-                            console.log('Das Fahrzeug wird nicht rechtzeitig ankommen!');
-                            //alert('Das Fahrzeug wird nicht rechtzeitig ankommen!');
+                            //console.log('Das Fahrzeug wird nicht rechtzeitig ankommen!');
+                            alert('Das Fahrzeug wird nicht rechtzeitig ankommen!');
                         }
                     }
                 }
